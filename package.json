@@ -1,6 +1,6 @@
 {
   "name": "widenbot-gif",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "GIF plugin for widenbot",
   "main": "index.js",
   "scripts": {
