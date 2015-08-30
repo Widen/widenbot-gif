@@ -1,0 +1,35 @@
+{
+  "name": "widenbot-gif",
+  "version": "0.0.0",
+  "description": "GIF plugin for widenbot",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint index.js",
+    "unit-test": "tape ./test/*-test.js",
+    "coverage": "covert ./test/*-test.js",
+    "test": "npm run lint && npm run unit-test"
+  },
+  "keywords": [
+    "widenbot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Widen/widenbot-gif.git"
+  },
+  "author": {
+    "name": "Mark Feltner",
+    "email": "mfeltner@widen.com",
+    "url": "http://widen.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "covert": "^1.1.0",
+    "jshint": "^2.8.0",
+    "tape": "^4.2.0"
+  },
+  "dependencies": {
+    "giphy": "0.0.4",
+    "lodash": "^3.10.1",
+    "promise": "^7.0.4"
+  }
+}
